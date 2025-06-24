@@ -11,8 +11,8 @@ export default function Home() {
             <h1 className="text-2xl font-bold text-primary-600">N8N Lite</h1>
           </div>
           <nav className="hidden md:flex space-x-8">
-            <Link href="/product" className="text-gray-600 hover:text-primary-600">
-              产品
+            <Link href="/products" className="text-gray-600 hover:text-primary-600">
+              产品中心
             </Link>
             <Link href="/browserbase" className="text-gray-600 hover:text-primary-600">
               浏览器自动化
@@ -57,8 +57,8 @@ export default function Home() {
                 <Link href="/signup" className="btn-primary text-center">
                   免费开始使用
                 </Link>
-                <Link href="/contact" className="btn-secondary text-center">
-                  联系销售
+                <Link href="/products" className="btn-secondary text-center">
+                  浏览产品中心
                 </Link>
               </div>
             </div>
