@@ -1,0 +1,67 @@
+{
+  "login_example": {
+    "description": "登录表单示例",
+    "config": {
+      "url": "https://example.com/login",
+      "actions": [
+        {
+          "action_type": "fill_input",
+          "selector_type": "css",
+          "selector_value": "input[name='username']",
+          "input_value": "your_username",
+          "description": "填写用户名"
+        },
+        {
+          "action_type": "fill_input",
+          "selector_type": "css",
+          "selector_value": "input[name='password']",
+          "input_value": "your_password",
+          "description": "填写密码"
+        },
+        {
+          "action_type": "click_button",
+          "selector_type": "css",
+          "selector_value": "button[type='submit']",
+          "description": "点击登录按钮",
+          "wait_time": 3
+        }
+      ]
+    }
+  },
+  "contact_form_example": {
+    "description": "联系表单示例",
+    "config": {
+      "url": "https://example.com/contact",
+      "actions": [
+        {
+          "action_type": "fill_input",
+          "selector_type": "id",
+          "selector_value": "name",
+          "input_value": "张三",
+          "description": "填写姓名"
+        },
+        {
+          "action_type": "fill_input",
+          "selector_type": "id",
+          "selector_value": "email",
+          "input_value": "zhangsan@example.com",
+          "description": "填写邮箱"
+        },
+        {
+          "action_type": "fill_input",
+          "selector_type": "id",
+          "selector_value": "message",
+          "input_value": "这是一条测试消息",
+          "description": "填写消息内容"
+        },
+        {
+          "action_type": "click_button",
+          "selector_type": "css",
+          "selector_value": "input[type='submit']",
+          "description": "提交表单",
+          "wait_time": 2
+        }
+      ]
+    }
+  }
+}
